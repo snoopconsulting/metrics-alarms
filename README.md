@@ -1,9 +1,9 @@
 
-Alarms for Metrics: An Extension for the Metrics Library, to set up alarms
+Alarms for Metrics: An Extension for the Metrics Library to set up alarms
 --------------------
 
 
-This is a Java library that enhances <a href=”http://metrics.codahale.com/”>Metrics Version 2</a> and <a href=”https://github.com/addthis/metrics-reporter-config”>metrics-reporter-config</a> to be able to:
+This is a Java library that enhances [Metrics Version 2](http://metrics.codahale.com/) and [Metrics-reporter-config](https://github.com/addthis/metrics-reporter-config) to be able to:
 
 * define alarms triggered when some monitored value goes over,
 below some value, or out of a given range.
