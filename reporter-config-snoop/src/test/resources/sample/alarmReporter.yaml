@@ -1,0 +1,17 @@
+alarm:
+  - 
+    period: 1
+    timeunit: 'NANOSECONDS'
+    metrics:
+      - metric: request
+        threshold: ABOVE
+        value: 1
+      - metric: requestRange
+        threshold: RANGE
+        valueMin: 2
+        valueMax: 4
+      - metric: requestBelow
+        threshold: BELOW
+        value: 3
+
+

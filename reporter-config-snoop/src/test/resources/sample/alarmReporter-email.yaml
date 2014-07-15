@@ -1,0 +1,27 @@
+alarm:
+  - 
+    period: 1
+    timeunit: 'NANOSECONDS'
+    periodAlarm: 30
+    timeunitAlarm: 'SECONDS'
+    email:
+        mail: nicolas.just@snoopconsulting.com
+        password: pepepe
+        smtpAddres: smtp.gmail.com
+        smtpPort: 587
+        TLS: true
+        issue: Alarma de Metric
+        addressee: nicolas.just@snoopconsulting.com
+    metrics:
+      - metric: request
+        threshold: ABOVE
+        value: 1
+      - metric: requestRange
+        threshold: RANGE
+        valueMin: 2
+        valueMax: 4
+      - metric: requestBelow
+        threshold: BELOW
+        value: 3
+
+
